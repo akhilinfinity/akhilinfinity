@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Perk & Sip - Discover premium coffee blends, recipes, and products for coffee lovers.">
+    <meta name="keywords" content="Coffee, Coffee Shop, Coffee Recipes, Premium Coffee, Perk & Sip">
+    <meta name="author" content="Perk & Sip">
+    <title>Perk & Sip - Premium Coffee Experience</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+</head>
+<body>
+
+
+    <!-- Header with navigation menu -->
+    <header>
+        <nav>
+            <div class="logo">Perk & Sip</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#story">Our Story</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#recipes">Recipes</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section id="home" class="hero">
+            <div class="video-background">
+                <video autoplay muted loop>
+                    <source src="2675509-hd_1920_1080_24fps.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="hero-content">
+                <h1>Every Sip Tells a Story</h1>
+                <p>Discover the rich flavors of Perk & Sip</p>
+                <a href="#products" class="cta-button">Explore Our Brews</a>
+            </div>
+        </section>
+        
+
+        <section id="story" class="our-story">
+            <h2>Our Story</h2>
+            <div class="story-content">
+                <img src="pexels-juanpphotoandvideo-894695.jpg" alt="A close-up of coffee beans" class="story-image">
+                <p>Perk & Sip began with a simple passion for quality coffee and a desire to share it with the world. Our journey started in a small roastery, where we perfected our craft and developed unique blends that capture the essence of premium coffee.</p>
+            </div>
+        </section>
+
+        <section id="products" class="product-highlights">
+            <h2>Product Highlights</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="pexels-o-neil-gonzales-66734279-13787585.jpg" alt="Premium coffee beans">
+                    <h3>Premium Coffee Beans</h3>
+                    <p>Experience the rich aroma of our carefully selected beans.</p>
+                </div>
+                <div class="product-card">
+                    <img src="pexels-fotios-photos-4780665.jpg" alt="Instant coffee packets">
+                    <h3>Instant Coffee</h3>
+                    <p>Quick and delicious coffee for your busy lifestyle.</p>
+                </div>
+                <div class="product-card">
+                    <img src="pexels-lood-goosen-508841-1235706.jpg" alt="A handcrafted coffee mug">
+                    <h3>Artisan Mugs</h3>
+                    <p>Elevate your coffee experience with our handcrafted mugs.</p>
+                </div>
+                <div class="product-card">
+                    <img src="pexels-michael-burrows-7125730.jpg" alt="coffee harvesting">
+                    <h3>Asian coffee</h3>
+                    <p>Hand harvesting is the best possible way to harvest coffee</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="recipes" class="coffee-recipes">
+            <h2>Coffee Recipes</h2>
+            <div class="recipe-grid">
+                <div class="recipe-card">
+                    <h3>Classic Espresso</h3>
+                    <p>Master the art of brewing the perfect espresso shot.</p>
+                </div>
+                <div class="recipe-card">
+                    <h3>Creamy Latte</h3>
+                    <p>Create a silky smooth latte with our step-by-step guide.</p>
+                </div>
+                <div class="recipe-card">
+                    <h3>Refreshing Cold Brew</h3>
+                    <p>Learn how to make a delicious cold brew for hot summer days.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-us">
+            <h2>Get in Touch</h2>
+            <form id="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="submit-button">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About Us</h3>
+                <p>Perk & Sip is dedicated to bringing you the finest coffee experience.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#story">Our Story</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#recipes">Recipes</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Newsletter</h3>
+                <form id="newsletter-form">
+                    <input type="email" placeholder="Your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Perk & Sip. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
