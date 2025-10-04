@@ -3,12 +3,10 @@
 
 Email Me 👉 ✉️ **akhilkumar98059@gmail.com** For Collaboration/Project or Anything Else. 😊😊
 
-- 🔭 **I’m currently working on:** Heart Failure Prediction project using machine learning (semester project)
 - 🌱 **I’m currently learning:** Python, Data Science, Tableau, and Machine Learning
 - 👯 **I’m looking to collaborate on:** A multilingual AI health advisory chatbot for SIH — focused on disease awareness and preventive healthcare
-- 🤔 **I’m looking for help with:** Model improvement and frontend/backend development
 - 💬 **Ask me about:** Collaboration, Tech Support
-- 📫 **How to reach me:** akhilkumar980@gmail.com
+- 📫 **How to reach me:** akhilkumar98059@gmail.com
 - 😄 **Pronouns:** He/Him
 - ⚡ **Fun fact:** Ctrl + S is my life mantra.
 
